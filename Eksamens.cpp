@@ -8,7 +8,9 @@ int main(){
 	char atbilde;
 	int jaut1,jaut2,jaut3,jaut4,jaut5,jaut6,jaut7,jaut8,jaut9,jaut10;
 	int pareizi=0, nepareizi=0;
-	//jautâjums
+	//Sakums
+	cout<<"Sveicinati For cikla zinasanu testa";
+	//Pirmais jautâjums
 	cout<<"1. jautajums \n\n";
 	cout<<"Kads iznakums ir for cikla i mainigajam \n\n";
 	cout<<"for(int i=1; i<15; i=i+3) \n";
@@ -19,7 +21,7 @@ int main(){
 	cout<<"c) 1370131 \n";
 	cout<<"d) 51 \n\n";
 	
-	while (skaits == 0){
+	if (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'b': case 'B':
@@ -31,40 +33,316 @@ int main(){
 			skaits++;
 			jaut1++;
 			break;
-		cout<<"\n drikst atbildet ar a,b,c,d \n\n";
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
 	}
 	}
 	skaits=0;
-	//notira ekranu
+	//Notira ekranu
+	system("CLS");
+	
+	//Otrais jautâjums
+	cout<<"2. jautajums \n\n";
+	cout<<"Kads ir for cikla sakuma skaitlis \n\n";
+	cout<<"for(int j=20; j<40; j=j+3) \n";
+	
+	//Atbildes
+	cout<<"a) 20 \n";
+	cout<<"b) 40 \n";
+	cout<<"c) 30 \n";
+	cout<<"d) 3 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'a': case 'A':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'b': case 'B': case 'c': case 'C':case 'd': case 'D':
+			nepareizi++; getch();
+			skaits++;
+			jaut2++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
+	system("CLS");
+	
+	//Tresais jautâjums
+	cout<<"3. jautajums \n\n";
+	cout<<"Kads ir for cikla beigu skaitla nosacijums \n\n";
+	cout<<"for(int j=20; j<40; j=j+3) \n";
+	
+	//Atbildes
+	cout<<"a) 20 \n";
+	cout<<"b) 3 \n";
+	cout<<"c) 30 \n";
+	cout<<"d) 40 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'd': case 'D':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'b': case 'B': case 'c': case 'C':case 'a': case 'A':
+			nepareizi++; getch();
+			skaits++;
+			jaut3++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
+	system("CLS");
+	
+	//Ceturtais jautâjums
+	cout<<"4. jautajums \n\n";
+	cout<<"Kads ir for cikla x iznakums \n\n";
+	cout<<"for(int x=1; x<10; x++) \n";
+	cout<<"cout<<x<<\" \"; \n";
+	
+	//Atbildes
+	cout<<"a) 1 2 3 4 5 6 7 8 9 \n";
+	cout<<"b) 123456789 \n";
+	cout<<"c) 9 8 7 6 5 4 3 2 1 \n";
+	cout<<"d) 987654321 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'a': case 'A':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'b': case 'B': case 'c': case 'C':case 'd': case 'D':
+			nepareizi++; getch();
+			skaits++;
+			jaut4++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
+	system("CLS");
+	
+	//Piektais jautâjums
+	cout<<"5. jautajums \n\n";
+	cout<<"Kads ir for cikla x iznakums \n\n";
+	cout<<"for(int x=10; x>1; x--) \n";
+	cout<<"cout<<x<<\" \"; \n";
+	
+	//Atbildes
+	cout<<"a) 2345678910 \n";
+	cout<<"b) 1098765432 \n";
+	cout<<"c) 10 9 8 7 6 5 4 3 2 \n";
+	cout<<"d) 2 3 4 5 6 7 8 9 10 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'c': case 'C':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'b': case 'B': case 'a': case 'A':case 'd': case 'D':
+			nepareizi++; getch();
+			skaits++;
+			jaut5++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
+	system("CLS");
+	
+	//Sestais jautâjums
+	cout<<"6. jautajums \n\n";
+	cout<<"Kads ir for cikla z iznakums \n\n";
+	cout<<"for(int z=10; z>1; z--) \n";
+	cout<<"cout<<z; \n";
+	
+	//Atbildes
+	cout<<"a) 2345678910 \n";
+	cout<<"b) 1098765432 \n";
+	cout<<"c) 10 9 8 7 6 5 4 3 2 \n";
+	cout<<"d) 2 3 4 5 6 7 8 9 10 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'b': case 'B':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'C': case 'c': case 'a': case 'A':case 'd': case 'D':
+			nepareizi++; getch();
+			skaits++;
+			jaut6++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
+	system("CLS");
+	
+	//Septitais jautâjums
+	cout<<"7. jautajums \n\n";
+	cout<<"Kads ir for cikla x iznakums \n\n";
+	cout<<"for(int x=1; x<10; x++) \n";
+	cout<<"cout<<x<<; \n";
+	
+	//Atbildes
+	cout<<"a) 1 2 3 4 5 6 7 8 9 \n";
+	cout<<"b) 9 8 7 6 5 4 3 2 1 \n";
+	cout<<"c) 123456789 \n";
+	cout<<"d) 987654321 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'c': case 'C':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'b': case 'B': case 'a': case 'A':case 'd': case 'D':
+			nepareizi++; getch();
+			skaits++;
+			jaut7++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
+	system("CLS");
+	
+	//Astotais jautâjums
+	cout<<"8. jautajums \n\n";
+	cout<<"Kads ir for cikla y pedejais cipars ciparu rinda \n\n";
+	cout<<"for(int y=40; y>25; y--) \n";
+	cout<<"cout<<y<<\" \"; \n";
+	
+	//Atbildes
+	cout<<"a) 34 \n";
+	cout<<"b) 25 \n";
+	cout<<"c) 40 \n";
+	cout<<"d) 26 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'd': case 'D':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'C': case 'c': case 'a': case 'A':case 'b': case 'B':
+			nepareizi++; getch();
+			skaits++;
+			jaut8++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
+	system("CLS");
+	
+	//Devitais jautâjums
+	cout<<"9. jautajums \n\n";
+	cout<<"Kads ir for cikla g pirmais cipars ciparu rinda \n\n";
+	cout<<"for(int g=42; g<75; g=g+2) \n";
+	cout<<"cout<<y<<\" \"; \n";
+	
+	//Atbildes
+	cout<<"a) 44 \n";
+	cout<<"b) 42 \n";
+	cout<<"c) 74 \n";
+	cout<<"d) 43 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'd': case 'D':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'C': case 'c': case 'a': case 'A':case 'b': case 'B':
+			nepareizi++; getch();
+			skaits++;
+			jaut9++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
+	system("CLS");
+	
+		cout<<"9. jautajums \n\n";
+	cout<<"Kads ir for cikla u piektais cipars ciparu rinda \n\n";
+	cout<<"for(int u=500; u>75; u=u-15) \n";
+	cout<<"cout<<y<<\" \"; \n";
+	
+	//Atbildes
+	cout<<"a) 500 \n";
+	cout<<"b) 435 \n";
+	cout<<"c) 455 \n";
+	cout<<"d) 440 \n\n";
+	
+	if (skaits == 0){
+		cout<< "atbilde: "; cin>>atbilde;
+	switch(atbilde){
+		case 'd': case 'D':
+			pareizi++; getch();
+			skaits++;
+			break;
+		case 'C': case 'c': case 'a': case 'A':case 'b': case 'B':
+			nepareizi++; getch();
+			skaits++;
+			jaut10++;
+			break;
+		cout<<"\n Drikst atbildet ar a,b,c,d \n\n";
+	}
+	}
+	skaits=0;
+	//Notira ekranu
 	system("CLS");
 	
 	cout<<"Visi jautajumi ir atbildeti! \n\n";
 	switch(pareizi){
 		case 10:
-			cout<<"Pareizi ir "<<pareizi<<" no 10/ perfekti punkti";
+			cout<<"Pareizi ir "<<pareizi<<" no 10/ perfekti punkti \n";
 		break;
 		case 9:
-			cout<<"Pareizi ir "<<pareizi<<" no 10/ gandriz perfekti punkti";
+			cout<<"Pareizi ir "<<pareizi<<" no 10/ gandriz perfekti punkti \n";
 			cout<<"Zem iznakuma bus nepareizi atbildetie jautajumi ar pareizajam atbildem";
 		break;
 		case 8:
-			cout<<"Pareizi ir "<<pareizi<<" no 10/ loti labi punkti";
+			cout<<"Pareizi ir "<<pareizi<<" no 10/ loti labi punkti \n";
 			cout<<"Zem iznakuma bus nepareizi atbildetie jautajumi ar pareizajam atbildem";
 			break;
 		case 7:
-			cout<<"Pareizi ir "<<pareizi<<" no 10/ labi punkti";
+			cout<<"Pareizi ir "<<pareizi<<" no 10/ labi punkti \n";
 			cout<<"Zem iznakuma bus nepareizi atbildetie jautajumi ar pareizajam atbildem";
 		break;
 		case 6:
-			cout<<"Pareizi ir "<<pareizi<<" no 10/ gandriz labi punkti";
+			cout<<"Pareizi ir "<<pareizi<<" no 10/ gandriz labi punkti \n";
 			cout<<"Zem iznakuma bus nepareizi atbildetie jautajumi ar pareizajam atbildem";
 		break;
 		case 5: case 4:
-			cout<<"Pareizi ir "<<pareizi<<" no 10/ viduveji punkti";
+			cout<<"Pareizi ir "<<pareizi<<" no 10/ viduveji punkti \n";
 			cout<<"Zem iznakuma bus nepareizi atbildetie jautajumi ar pareizajam atbildem";
 		break;
 	 	case 3: case 2: case 1: case 0 :
-			cout<<"Pareizi ir "<<pareizi<<" no 10/ slikti punkti(nesekmigs)";
+			cout<<"Pareizi ir "<<pareizi<<" no 10/ slikti punkti (nesekmigs) \n";
 			cout<<"Zem iznakuma bus nepareizi atbildetie jautajumi ar pareizajam atbildem";
 		break;
 		

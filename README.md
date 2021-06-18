@@ -4,6 +4,6 @@
 -[x] Izveidot README.md failu un to rediģēt
 -[x] Uzsākt veidot testu
 -[x] Izveidot atbilžu pārbaudijuma kodu
--[ ] Izveidot jautājumus
+-[x] Izveidot jautājumus
 -[ ] Izveidot nepareizo jautājumu izdrukāšanu
 -[ ] Izveidot testēšanas tabulu
