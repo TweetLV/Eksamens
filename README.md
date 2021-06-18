@@ -7,3 +7,4 @@
 - [x] Izveidot jautājumus
 - [ ] Izveidot nepareizo jautājumu izdrukāšanu
 - [ ] Izveidot testēšanas tabulu
+
