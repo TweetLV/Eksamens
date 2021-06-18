@@ -6,5 +6,5 @@
 - [x] Izveidot atbilžu pārbaudijuma kodu
 - [x] Izveidot jautājumus
 - [x] Izveidot nepareizo jautājumu izdrukāšanu
-- [ ] Izveidot testēšanas tabulu
+- [x] Izveidot testēšanas tabulu
 

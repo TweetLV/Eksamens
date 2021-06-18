@@ -21,7 +21,7 @@ int main(){
 	cout<<"c) 1370131 \n";
 	cout<<"d) 51 \n\n";
 	
-	if (skaits == 0){
+	while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'b': case 'B':
@@ -54,7 +54,7 @@ int main(){
 	cout<<"c) 30 \n";
 	cout<<"d) 3 \n\n";
 	
-	if (skaits == 0){
+	while(skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'a': case 'A':
@@ -87,7 +87,7 @@ int main(){
 	cout<<"c) 30 \n";
 	cout<<"d) 40 \n\n";
 	
-    if (skaits == 0){
+    while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'd': case 'D':
@@ -121,7 +121,7 @@ int main(){
 	cout<<"c) 9 8 7 6 5 4 3 2 1 \n";
 	cout<<"d) 987654321 \n\n";
 	
-	if (skaits == 0){
+	while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'a': case 'A':
@@ -154,7 +154,7 @@ int main(){
 	cout<<"c) 10 9 8 7 6 5 4 3 2 \n";
 	cout<<"d) 2 3 4 5 6 7 8 9 10 \n\n";
 	
-	if (skaits == 0){
+	while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'c': case 'C':
@@ -188,7 +188,7 @@ int main(){
 	cout<<"c) 10 9 8 7 6 5 4 3 2 \n";
 	cout<<"d) 2 3 4 5 6 7 8 9 10 \n\n";
 	
-	if (skaits == 0){
+	while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'b': case 'B':
@@ -222,7 +222,7 @@ int main(){
 	cout<<"c) 123456789 \n";
 	cout<<"d) 987654321 \n\n";
 	
-	if (skaits == 0){
+	while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'c': case 'C':
@@ -256,7 +256,7 @@ int main(){
 	cout<<"c) 40 \n";
 	cout<<"d) 26 \n\n";
 	
-	if (skaits == 0){
+	while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'd': case 'D':
@@ -290,7 +290,7 @@ int main(){
 	cout<<"c) 42 \n";
 	cout<<"d) 43 \n\n";
 	
-	if (skaits == 0){
+	while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'c': case 'C':
@@ -324,7 +324,7 @@ int main(){
 	cout<<"c) 455 \n";
 	cout<<"d) 500 \n\n";
 	
-	if (skaits == 0){
+	while (skaits == 0){
 		cout<< "atbilde: "; cin>>atbilde;
 	switch(atbilde){
 		case 'a': case 'A':
