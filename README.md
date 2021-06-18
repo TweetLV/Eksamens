@@ -5,6 +5,6 @@
 - [x] Uzsākt veidot testu
 - [x] Izveidot atbilžu pārbaudijuma kodu
 - [x] Izveidot jautājumus
-- [ ] Izveidot nepareizo jautājumu izdrukāšanu
+- [x] Izveidot nepareizo jautājumu izdrukāšanu
 - [ ] Izveidot testēšanas tabulu
 
